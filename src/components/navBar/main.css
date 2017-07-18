@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d3d3d3;
+  height: 48px;
+  z-index: 1;}
+  nav i:hover {
+    cursor: pointer;
+    color: #4d98ff;}
+
+.mobile {
+  padding: 1em 1em;}
+
+.nav-mobile {
+  color: #ababab;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -15px;}
+  .nav-mobile li {
+    border-bottom: 1px solid #d3d3d3;
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    text-align: left;
+    line-height: 50px;
+    font-family: "Lato";
+    color: #a9a9a9;
+    background: #ffffff;
+    text-decoration: none; }
+  .nav-mobile li:hover {
+    color: #4d98ff; }
+
+.normal {
+  line-height: 35px;
+  text-align: center;
+  }
+  .normal ul {
+    margin: 0;
+    line-height: 48px; }
+
+.li-normal {
+  font-family: "Lato";
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 1em;
+  color: #a9a9a9; }
+  .li-normal:hover {
+    cursor: pointer;
+    color: #4d98ff;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+.mobile-center {
+  font-family: "Lato";
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-top: -1.3em;
+  text-align: center;
+  color: #a9a9a9; }
+
+.logo-text {
+  font-family: "Lato";
+  font-size: 12px;
+  display: inline-block;
+  line-height: 1.2em;
+  text-align: left;
+  vertical-align: middle;
+  color: #a9a9a9; }
+  .li-logo {
+    text-align: center;
+    margin-right: 10%;
+    display: inline-block;
+  }
+  .li-logo img{
+    vertical-align: middle;
+    padding-right: 0.5em;
+    width: auto;
+    height: 30px;
+  }
+  .li-logo:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .li-right {
+    font-family: "Lato";
+    font-size: 12px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10%;
+    color: #4d98ff;
+    text-decoration: underline; }

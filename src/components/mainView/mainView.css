@@ -1,0 +1,297 @@
+
+  .normal {
+    color: #ffffff;
+    font-family: "Lato";
+    text-align: center;}
+
+  .top-view {
+    background-color: #4d98ff;
+    height: 700px;
+    font-family: "Lato";}
+  section {
+    color: #ffffff;
+    text-align: left;
+  }
+
+  div {
+    height: 100%;
+  }
+  article {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+  }
+  .mobile_article {
+    position: absolute;
+    top: 360px;
+    left: 5%;
+    right: 5%;
+    transform: translate(0%, -50%);
+    width: 80%;
+    padding: 20px;
+  }
+  .mobile_article p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: 100;
+  }
+  .mobile_div li {
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .mobile_div {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile_button {
+    margin-top: 0.5em;
+    font-weight: 100;
+    width: 320px;
+    height: 38px;
+    cursor: pointer;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight:100;
+  }
+  p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 100;
+  }
+  .container {
+    display: table;
+    width: 100%;
+  }
+
+  .left-half {
+    position: absolute;
+    left: 0px;
+    width: 55%;
+  }
+
+  .right-half {
+    position: absolute;
+    right: 0px;
+    width: 45%;
+  }
+  .right-half article {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+  }
+  .right-half li {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .contribute {
+    margin-top: 2em;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .img-icon {
+    width: 22px;
+    height: auto;
+    padding-right: 0.5em;
+    vertical-align: middle;
+  }
+  .button {
+    margin-top: 0.5em;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 100;
+    width: 380px;
+    height: 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+  }
+  .icon_div {
+    width: 90%;
+    padding: 2em;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon_div img {
+    height: 28px;
+    width: auto;
+    padding: 1em;
+    vertical-align: middle;
+  }
+  .swipe_view {
+    background-color: #F6F8FF;
+    width: 90%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  .slide_div {
+    display: table;
+    width: 90%;
+    height: 250px;
+    justify-content: center;
+    vertical-align: middle;
+    display: inline-block;
+    align-items: center;
+  }
+  .left_div {
+    display: table-cell;
+    left: 0px;
+    width: 70%;
+    height: 70%;
+  }
+  .icon_left_div {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  .right_div {
+    display: table-cell;
+    right: 0px;
+    width: 30%;
+  }
+  .icon_right_div {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon_right_div img {
+    margin-top: 5%;
+    width: 130px;
+    height: auto;
+    padding: 1em;
+    vertical-align: middle;
+  }
+  .title_li {
+    margin-top: 5%;
+    display: block;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: #4d98ff;
+  }
+  .subtitle_li {
+    display: block;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 1.2em;
+    color: #4d98ff;
+  }
+  .desciption_li {
+    width: 80%;
+    display: inline-block;
+    margin-top: 3%;
+    font-weight: 100;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.2em;
+  }
+  .slide_button {
+    width: 240px;
+    height: 35px;
+    cursor: pointer;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #4d98ff;
+  }
+  .slide_button li {
+    display: inline-block;
+    font-weight: 100;
+    color: #4d98ff;
+    font-size: 14px;
+  }
+
+  .mobile_slide_div {
+    width: 90%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .slide_img {
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+  .slide_img img {
+    margin-top: 2%;
+    width: 110px;
+    height: auto;
+    padding: 1em;
+  }
+  .mobile_slide_button {
+    width: 220px;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #4d98ff;
+  }
+  .mobile_slide_button li {
+    display: inline-block;
+    font-weight: 100;
+    color: #4d98ff;
+    line-height: 0.5em;
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight:100;
+    color: #000000;
+    line-height: 2em;
+  }
+
+  .banking_view {
+    background-color: #F6F8FF;
+    width: 90%;
+    height: 280px;
+    display: table;
+    display: inline-block;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  .inner_div {
+    display: table-cell;
+    width: 100/3%;
+    padding: 1.5em;
+  }
